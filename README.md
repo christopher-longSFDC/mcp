@@ -6,6 +6,8 @@ Helpful examples for Salesforce Marketing Cloud Personalization.
 - Server-Side templates
 - Triggered templates
 
+*These examples are provided for educational purposes. Use at your own risk.*
+
 ## Documentation Websites
 - https://doc.evergage.com/
 - https://developer.evergage.com/

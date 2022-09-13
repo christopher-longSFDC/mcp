@@ -16,4 +16,4 @@ https://github.com/christopher-longSFDC/mcp/wiki
 - https://developer.evergage.com/
 
 ## Repository Info
-This gitHub repository is managed by a member of the *Technical Ecosystem Enablement* team which is part of the Alliances organization at Salesforce. If you or a member of your team would like to contribute to the repository, please make a "pull" request.
+This GitHub repository is managed by a member of the *Technical Ecosystem Enablement* team which is part of the Alliances organization at Salesforce. If you or a member of your team would like to contribute to the repository, please make a "pull" request.

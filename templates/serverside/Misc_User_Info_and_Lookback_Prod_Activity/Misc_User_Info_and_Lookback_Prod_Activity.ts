@@ -24,7 +24,7 @@ export class LookbackActivity {
         //--If your sitemap uses the old Evergage namespace and defines an 'action' for the event,
         //--set actionName equal to that "action" instead of the Interaction Name.
         let action_stat = {actionName:"View Item",start:formattedUTCStardDate,end:formattedUTCEndDate};
-        //count of Product Detail views based on actionStatRequest
+        //count of View Item views based on actionStatRequest
         let _userActionStatCount = context.user.actionCount(action_stat);
 
         //activity history for products (using same start and end date as the actionStatRequest but it doesn't have to)
@@ -35,7 +35,7 @@ export class LookbackActivity {
                 duration_in_days: LookbackActivity.LOOKBACK_DURAION,
                 "start_date" : formattedUTCStardDate.toDateString(),
                 "end_date" : formattedUTCEndDate.toDateString(),
-                "total_product_views" : _userActionStatCount,
+                "total_item_views" : _userActionStatCount,
                 "product_activity_history" : JSON.parse(_product_activity) ? JSON.parse(_product_activity) : null
             }
         }

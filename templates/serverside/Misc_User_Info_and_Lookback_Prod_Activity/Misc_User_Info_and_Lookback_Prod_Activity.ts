@@ -3,13 +3,13 @@ export class LookbackActivity {
 
         //adjust the lookback period as needed
         //type is number representing days
-        static LOOKBACK_DURAION = 30 as number;
+        static LOOKBACK_DURATION = 30 as number;
 
         getLookbackActivityPayload(context: CampaignComponentContext){
 
         //set the lookback date for activity in the past
         const lookback = new Date();
-        lookback.setDate(lookback.getDate() - LookbackActivity.LOOKBACK_DURAION);
+        lookback.setDate(lookback.getDate() - LookbackActivity.LOOKBACK_DURATION);
         const startDateEpoch = lookback.getTime();
         const formattedUTCStardDate = new Date(startDateEpoch + lookback.getTimezoneOffset() * 60 * 1000);
 

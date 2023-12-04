@@ -32,7 +32,7 @@ export class LookbackActivity {
 
         return {
             lookback_activity:{
-                duration_in_days: LookbackActivity.LOOKBACK_DURAION,
+                duration_in_days: LookbackActivity.LOOKBACK_DURATION,
                 "start_date" : formattedUTCStardDate.toDateString(),
                 "end_date" : formattedUTCEndDate.toDateString(),
                 "total_item_views" : _userActionStatCount,

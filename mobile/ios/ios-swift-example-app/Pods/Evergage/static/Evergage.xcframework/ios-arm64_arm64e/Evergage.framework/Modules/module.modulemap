@@ -1,0 +1,35 @@
+framework module Evergage {
+    umbrella header "Evergage.h"
+    
+    module * { export * }
+    export *
+    
+    // Requires @import Evergage.Swizzling to use advanced/optional category.
+    // Specifially, import allows compilation, but unfortunately still seems to
+    // expose method names and auto-complete. To completely hide until import
+    // seemingly requires a separate top-level framework module, but that results
+    // in an incomplete-umbrella warning unless Evergage module uses [system] attr.
+    explicit module Swizzling {
+      header "Evergage+Swizzling.h"
+    }
+    
+    // Required:
+    link framework "Foundation"
+    link framework "UIKit"
+    // SystemConfiguration for monitoring network connectivity.
+    link framework "SystemConfiguration"
+    // CoreGraphics and QuartzCore for In-App-Message campaign rendering.
+    link framework "CoreGraphics"
+    link framework "QuartzCore"
+    // Z for gzip compression to reduce bandwidth
+    link "z"
+    
+    // Optional:
+    // UserNotifications for apps using it for push notifications.
+    // Can be weak linked. Safely ignored for iOS <10.
+    link framework "UserNotifications"
+    // FirebaseMessaging for apps using it for push notifications.
+    // Safely ignored for apps not using FirebaseMessaging.
+    //link framework "FirebaseMessaging"
+
+}

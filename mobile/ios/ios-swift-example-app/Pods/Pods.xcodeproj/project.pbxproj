@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B92C1FD896F674558E7FEC2759B5586F /* Evergage */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB21953EDDD34AED9ECEC9C43273DA84 /* Build configuration list for PBXAggregateTarget "Evergage" */;
+			buildPhases = (
+				F11AC34A03C3F0EDC6439DE97A984CE9 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Evergage;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4E1168B9F4E9C8EC5E18912FA974EF5E /* Pods-mcp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268870AA687284F8D22373DB872673EA /* Pods-mcp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB06F77F93DF7BC406A2142839B6A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92C1FD896F674558E7FEC2759B5586F;
+			remoteInfo = Evergage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017B2ABE5F267E206DE088C27E5437ED /* Pods-mcp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mcp.debug.xcconfig"; sourceTree = "<group>"; };
+		0482C311742846E372AB7A5ABFDEB0A3 /* Pods-mcp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mcp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		268870AA687284F8D22373DB872673EA /* Pods-mcp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mcp-dummy.m"; sourceTree = "<group>"; };
+		3C932F1FAEE100526687563FB9A2816C /* Pods-mcp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mcp-acknowledgements.plist"; sourceTree = "<group>"; };
+		4595FDD73B834076D3D50BAB474CFBD6 /* Pods-mcp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mcp.release.xcconfig"; sourceTree = "<group>"; };
+		6CF8055F6F64A002FE641F3362BFCD43 /* Evergage-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Evergage-xcframeworks.sh"; sourceTree = "<group>"; };
+		734D564DAD4C821C34BFA09C3E2EA9B0 /* Evergage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Evergage.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA80E53B603EFBD476D850000004A5D9 /* Evergage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Evergage.debug.xcconfig; sourceTree = "<group>"; };
+		D0D353F09065E2CC48466F608B2A346E /* Evergage.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Evergage.xcframework; path = static/Evergage.xcframework; sourceTree = "<group>"; };
+		F17FCF09DBDA69C4F882866AC2578310 /* Pods-mcp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-mcp"; path = "libPods-mcp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA71FBED2DDA04C452F8ECC52BC6B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C760F160F051343E1B884677CC2AEE8 /* Evergage */ = {
+			isa = PBXGroup;
+			children = (
+				DC67D3C3EF61954BD2AC3731399C44F5 /* Frameworks */,
+				229181E2B154A8A9F95F9167159BE7F4 /* Support Files */,
+			);
+			name = Evergage;
+			path = Evergage;
+			sourceTree = "<group>";
+		};
+		229181E2B154A8A9F95F9167159BE7F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF8055F6F64A002FE641F3362BFCD43 /* Evergage-xcframeworks.sh */,
+				AA80E53B603EFBD476D850000004A5D9 /* Evergage.debug.xcconfig */,
+				734D564DAD4C821C34BFA09C3E2EA9B0 /* Evergage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Evergage";
+			sourceTree = "<group>";
+		};
+		81CD952E13AFB0D78E203A75D9B1972E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C760F160F051343E1B884677CC2AEE8 /* Evergage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86FD5A730B08723A22C97211C40CE04C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A935239EA06DC65E2047C985063232 /* Pods-mcp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96A935239EA06DC65E2047C985063232 /* Pods-mcp */ = {
+			isa = PBXGroup;
+			children = (
+				0482C311742846E372AB7A5ABFDEB0A3 /* Pods-mcp-acknowledgements.markdown */,
+				3C932F1FAEE100526687563FB9A2816C /* Pods-mcp-acknowledgements.plist */,
+				268870AA687284F8D22373DB872673EA /* Pods-mcp-dummy.m */,
+				017B2ABE5F267E206DE088C27E5437ED /* Pods-mcp.debug.xcconfig */,
+				4595FDD73B834076D3D50BAB474CFBD6 /* Pods-mcp.release.xcconfig */,
+			);
+			name = "Pods-mcp";
+			path = "Target Support Files/Pods-mcp";
+			sourceTree = "<group>";
+		};
+		9736D7665BF62C351080B8A1A8DCC4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17FCF09DBDA69C4F882866AC2578310 /* Pods-mcp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				81CD952E13AFB0D78E203A75D9B1972E /* Pods */,
+				9736D7665BF62C351080B8A1A8DCC4BB /* Products */,
+				86FD5A730B08723A22C97211C40CE04C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC67D3C3EF61954BD2AC3731399C44F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D353F09065E2CC48466F608B2A346E /* Evergage.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		443D97C4219FF56D0BCFD32AD9BECB36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB976457616E4C4A957AD6D162B14DAE /* Pods-mcp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CACD2B5F983223EC4322B33C53B2CD /* Build configuration list for PBXNativeTarget "Pods-mcp" */;
+			buildPhases = (
+				443D97C4219FF56D0BCFD32AD9BECB36 /* Headers */,
+				45FC370BCA3CC86AC09F1162D5DD0213 /* Sources */,
+				7EA71FBED2DDA04C452F8ECC52BC6B2F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B72D8019A15FC997DCE3D8AC323176 /* PBXTargetDependency */,
+			);
+			name = "Pods-mcp";
+			productName = "Pods-mcp";
+			productReference = F17FCF09DBDA69C4F882866AC2578310 /* Pods-mcp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9736D7665BF62C351080B8A1A8DCC4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B92C1FD896F674558E7FEC2759B5586F /* Evergage */,
+				DB976457616E4C4A957AD6D162B14DAE /* Pods-mcp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F11AC34A03C3F0EDC6439DE97A984CE9 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Evergage/Evergage-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Evergage/Evergage-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Evergage/Evergage-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FC370BCA3CC86AC09F1162D5DD0213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1168B9F4E9C8EC5E18912FA974EF5E /* Pods-mcp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75B72D8019A15FC997DCE3D8AC323176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Evergage;
+			target = B92C1FD896F674558E7FEC2759B5586F /* Evergage */;
+			targetProxy = 2BB06F77F93DF7BC406A2142839B6A88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0200DE21A86BE654F8F0D9F621025C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA80E53B603EFBD476D850000004A5D9 /* Evergage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94EB38FD94B860532815E6134AAB7ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017B2ABE5F267E206DE088C27E5437ED /* Pods-mcp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC410C87BC65E77E2145B61381E8131F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734D564DAD4C821C34BFA09C3E2EA9B0 /* Evergage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F243CFCEDB3D03EECF6112542522BE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4595FDD73B834076D3D50BAB474CFBD6 /* Pods-mcp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CACD2B5F983223EC4322B33C53B2CD /* Build configuration list for PBXNativeTarget "Pods-mcp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EB38FD94B860532815E6134AAB7ACE /* Debug */,
+				F243CFCEDB3D03EECF6112542522BE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB21953EDDD34AED9ECEC9C43273DA84 /* Build configuration list for PBXAggregateTarget "Evergage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0200DE21A86BE654F8F0D9F621025C7A /* Debug */,
+				EC410C87BC65E77E2145B61381E8131F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
